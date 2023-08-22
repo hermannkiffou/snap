@@ -63,9 +63,10 @@
       margin-bottom: 10px;
 }
 
-.bouttonConnexio a {
+button.bouttonConnexion a{
       text-decoration: non;
       color:white;
+      
 }
 
 .divFormulaire .barreOr{

@@ -1,0 +1,195 @@
+*{
+          margin: 0;
+          padding: 0;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.divPrincipale{
+          background-color: #1C1C1C;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          justify-items: center;
+}
+
+.divGauche{
+          width: 50vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          justify-items: center;
+          align-items: center;
+}
+
+.divGauche img{
+        width: 100px;
+        margin-bottom: 20px;
+}
+
+.divGauche img{
+        width: 100px;
+        margin-bottom: 20px;
+}
+
+.divFormulaire p.titreConnexion{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px;
+        color: white;
+}
+
+.divFormulaire a{
+        text-decoration: none;
+        color: #FF9B04;
+        display: flex;
+        text-align: right;
+        justify-content: right;
+        align-items:flex-end;
+        margin-top: -8px;
+}
+
+.divFormulaire button.boutonConnexion{
+        height: 45px;
+        width: 30vw;
+        background-color: #FF9B04;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+}
+
+.divFormulaire .barreOr{
+        height: 4px;
+        width: 15vw;
+        background-color: white;
+        margin: 6px auto;
+}
+
+.divFormulaire .pasDeCompte{
+        background-color: #1C1C1C;
+        border-radius: 20px;
+        height: 50px;
+        width: 200px;
+        border: none;
+        display: flex;
+        margin: 0 auto;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.blocReseau div img{
+        width: 50px;
+        height: 50px;
+}
+.blocReseau div p{
+        font-size: 15px;
+        color: white;
+        margin-top: -10px;
+}
+.blocReseau div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1C1C1C;
+        padding: 10px;
+        border-radius: 20px;
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
+}
+
+.blocReseau{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+   
+}
+.divFormulaire .texteConnexionReseaux{
+        font-size: 16;
+        color: white;
+        text-align: center;
+}
+
+form .mesInputs input{
+        height: 40px;
+        border: 2px solid #FF9B04;
+        width: 30vw;
+        display: flex;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        text-align: center;
+}
+
+.divFormulaire{
+          background-color: #494949;
+          width: 35vw;
+          height: 80vh;
+          border-radius: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+
+.divDroite img{
+          width: 50vw;
+          height: 100vh;
+          display: flex;
+}
+
+.divDroite .sousDivTransparante{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60%;
+        right:  8%;
+        color: white;
+        height: 150px;
+        width: 35vw;
+        background-color: transparent;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+}
+.divDroite .sousDivOpacity{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60%;
+        right: 8%;
+        height: 150px;
+        width: 35vw;
+        background-color:#494949;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        opacity: 50%;
+}
+.divDroite p{
+        font-weight: bold;
+        opacity: 100%;
+}
+.divDroite .sousDivTransparante .snap{
+        font-size: 100px;
+        color: white;
+}
+.divDroite .p2{
+        color: #FF9B04;
+}
+
+
+

@@ -1,13 +1,89 @@
 *{
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body{
-        background-color: black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
+    background-color: #1C1C1C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
-.logoSnap{
-        height: 200px;
+/* DEBUT STILISATION divNav */
+.divNav .logoSnap .imgLogoSnap{
+    height: 30px;
+	width: 50px;
 }
+.divNav .logoSnap p{
+    margin-left: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.divNav .logoSnap{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 10px;
+}
+
+
+
+.divNav .rechercheGratuite input{
+	margin-top: 20px;
+	height: 40px;
+	width: 90vw;
+	margin-left: 10px;
+}
+.divNav .rechercheGratuite p{
+	margin-top: 10px;
+	font-size: 20px;
+	color: #FF9B04;
+}
+.divNav .rechercheGratuite{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   top: 60px;
+}
+
+
+
+.divNav .avatar img{
+    height: 50px;
+	width: 50px;
+	border-radius: 30px;
+}
+.divNav .avatar p{
+	margin-left: 5px;
+}
+.divNav .avatar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+
+.checkBoxMenu{
+	margin-top: 10px;
+	margin-right: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.divNav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+
+/*FIN STYLISATION divNav

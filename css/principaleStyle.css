@@ -34,10 +34,11 @@ body{
 	width: 90vw;
 	margin-left: 10px;
 }
-.divNav .rechercheGratuite p{
+.divNav .rechercheGratuite a{
 	margin-top: 10px;
 	font-size: 20px;
 	color: #FF9B04;
+	text-decoration: none;
 }
 .divNav .rechercheGratuite{
    display: flex;
@@ -75,15 +76,31 @@ body{
 
 
 
-.divNav{
-	display: flex;
+div.divNav{
+	display: none;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	width: 100vw;
+	height: 160px;
+	margin-top: -40px;
+	background-color: #FF9B04;
+}
+nav{
+	background-color: aquamarine;
+}
+nav input[type=checkbox]:checked + ul>div.divNav{
+	background-color: red;
+	display: flex;
 }
 
-
-
+#menuBouton{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	margin: 5px;
+	display: block;
+}
 
 
 /*FIN STYLISATION divNav

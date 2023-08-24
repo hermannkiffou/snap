@@ -1,0 +1,5 @@
+body{background-color: orange;}
+nav input[type=checkbox]:checked + ul{
+    color: red;
+    font-size: 50px;
+}

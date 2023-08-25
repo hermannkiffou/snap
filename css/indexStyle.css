@@ -165,19 +165,19 @@ form .mesInputs input{
         padding-bottom: 20px;
 }
 .divDroite .sousDivOpacity{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 60%;
-        right: 8%;
-        height: 150px;
-        width: 35vw;
-        background-color:#494949;
-        border-radius: 20px;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    height: 150px;
+    width: 35vw;
+    background-color:#494949;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    opacity: 50%;
 }
 .divDroite p{
         font-weight: bold;
@@ -189,6 +189,7 @@ form .mesInputs input{
 }
 .divDroite .p2{
         color: #FF9B04;
+
 }
 
 

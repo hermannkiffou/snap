@@ -4,7 +4,7 @@
 }
 
 .colonneCategorie div p{
-        font-size: 35px;
+        font-size: 25px;
         color: white;
         text-align: center;
         justify-content: center;
@@ -38,7 +38,7 @@
 }
 
 .colonneVideo .video p.titreVideo{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         color: white;
         text-align: left;
@@ -46,7 +46,7 @@
         margin-left: 35px;
 }
 .colonneVideo .video p.categorieVideo{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         color:  #FF9B04;
         text-align: left;

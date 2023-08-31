@@ -16,7 +16,7 @@ body{
         color: #FF9B04;
         font-weight: bold;
         margin-right: 10px;
-        font-size: 15px;
+        font-size: 10px;
 }
 .maNav{
         display: flex;
@@ -26,18 +26,18 @@ body{
         background-color: #494949;
         height: 100px;
         width: 100vw;
-		position: fixed;
+	position: fixed;
 }
 
 .corps .infoSnap .pSnap{
-        font-size: 110px;
+        font-size: 100px;
         font-weight: bold;
         text-align: center;
         justify-content: center;
         color: white;
 }
 .corps .infoSnap .pPlateforme{
-        font-size: 38px;
+        font-size: 30px;
         font-weight: bold;
         text-align: center;
         justify-content: center;

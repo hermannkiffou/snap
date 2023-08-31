@@ -4,16 +4,27 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Snap Principale</title>
+      <link rel="stylesheet" href="../css/responsibeNavStyle.css">
       <link rel="stylesheet" href="../css/principaleStyle.css">
+      <link rel="stylesheet" href="../css/footerStyle.css">
 </head>
 <body>
 
+        <div class="mobileFixed">
+                <div class="snapLogoMobile">
+                        <img src="../assets/1-logoSnap.png" salt="">
+                </div>
+                <div class="avatarMobile">
+                        <img src="../assets/avatar.png" alt="">
+                        <p class="nomUtilisateur">Hermann KIFFOU</p>
+                    </div>
+        </div>
 
       <nav>
 		<label for="ch" id="menuBouton"></label>
 		<input type="checkbox" class="check" role="button" id="ch">
-		<ul>
-			<div class="divNav">
+                <ul>
+		<div class="divNav">
                 <div class="logoSnap"><img class="imgLogoSnap" src="../assets/1-logoSnap.png" alt=""> <p>SNAP</p></div>
                 <div class="rechercheGratuite">
                      <input type="text" placeholder="Rechercher"> <a href="#">Il vous reste 7 jours de gratuité</a>
@@ -21,16 +32,30 @@
                 <div class="avatar">
                     <img src="../assets/avatar.png" alt=""> 
                     <p class="nomUtilisateur">Hermann KIFFOU</p>
-                    
-                </div> 
+                </div>
+
+                <div class="optionMobile">
+                        <div class="menuPage">
+                                <a href="">Home</a>
+                                <a href="">Vidéos</a>
+                                <a href="">Musics</a>
+                        </div>
+                        <div class="menuUser">
+                                <a href="">Mon Profil</a>
+                                <a href="">Historique</a>
+                                <a href="">Téléchargement</a>
+                                <div class="boutonDeconnexion">
+                                        <a href="../index.html">Déconnexion</a>
+                                </div>
+                        </div>
+                </div>
+
                 <div class="checkBoxMenu">
-                    
                 </div>
             </div>
 		</ul>
-           
-			
       </nav>
+
       <div class="divLeftNav">
             <div class="menuHome"><img src="#" alt=""></div>
             <div class="menuVideo"><img src="#" alt=""></div>
@@ -39,69 +64,138 @@
 
 
       <div class="divBody">
+
+                <div class="colonneCategorie">
+                        <a href="">
+                                <div class="voyage">
+                                        <p>VOYAGE</p>
+                                </div>
+                        </a>
+                        <a href="">
+                                <div class="voyage">
+                                        <p>CINEMA</p>
+                                </div>
+                        </a>
+                        <a href="">
+                                <div class="voyage">
+                                        <p>ACTUALITE</p>
+                                </div>
+                        </a>
+                        <a href="">
+                                <div class="voyage">
+                                        <p>RESEAUX SOCIAUX</p>
+                                </div>
+                        </a>
+                </div>
+
             <div class="colonneVideo">
+                <h1>DES MILIERS DE VIDEOS</h1>
+                <a href="">
+                        <div class="video video1">
+                                <img src="../assets/video1.jpg" alt="" class="imageVideo">
+                                <p class="titreVideo">ZAO TUNEL</p>
+                                <p class="categorieVideo">Aventure</p>
+                                <div class="vueDateVideo">
+                                      <p class="vuVideo">2.3M Vue</p>
+                                      <p class="date">Il y a 12 minutes</p>
+                                </div>
+                          </div>
+                </a>
 
-                  <div class="video video1"> 
-                        <img src="../assets/video1.jpg" alt="" class="imageVideo">
-                        <p class="titreVideo">ZAO TUNEL</p>
-                        <p class="categorieVideo"></p>
-                        <div class="vueDateVideo">
-                              <p class="vuVideo">2.3M Vue</p>
-                              <p class="date">Il y a 12 minutes</p>
-                        </div>
-                  </div>
+                <a href="">
+                        <div class="video video2"> 
+                                <img src="../assets/video2.jpeg" alt="" class="imageVideo">
+                                <p class="titreVideo">AVANTURE</p>
+                                <p class="categorieVideo">Aventure</p>
+                                <div class="vueDateVideo">
+                                      <p class="vuVideo">33M Vue</p>
+                                      <p class="date">Il y a 4 Semaines</p>
+                                </div>
+                          </div>
+                </a>
 
+                <a href="">
+                        <div class="video video3"> 
+                                <img src="../assets/video3.jpeg" alt="" class="imageVideo">
+                                <p class="titreVideo">CONSTRUCTION</p>
+                                <p class="categorieVideo">Action</p>
+                                <div class="vueDateVideo">
+                                      <p class="vuVideo">9M Vue</p>
+                                      <p class="date">Il y a 7 Semaines</p>
+                                </div>
+                          </div>
+                </a>
 
-                  <div class="video video2"> 
-                        <img src="../assets/video1.jpg" alt="" class="imageVideo">
-                        <p class="titreVideo">AVANTURE</p>
-                        <p class="categorieVideo"></p>
-                        <div class="vueDateVideo">
-                              <p class="vuVideo">33M Vue</p>
-                              <p class="date">Il y a 4 Semaines</p>
-                        </div>
-                  </div>
-
-
-                  <div class="video video3"> 
-                        <img src="../assets/video1.jpg" alt="" class="imageVideo">
-                        <p class="titreVideo">CONSTRUCTION</p>
-                        <p class="categorieVideo"></p>
-                        <div class="vueDateVideo">
-                              <p class="vuVideo">9M Vue</p>
-                              <p class="date">Il y a 7 Semaines</p>
-                        </div>
-                  </div>
 
             </div>
             <div class="colonneMusic">
-                  <div class="audio">
-                        <img class="imageAudio" src="../assets/5-casque.jpg" alt="">
-                        <div class="infoAudio">
-                              <p class="artist">JUSTIN LIEBER</p>
-                              <p class="titre">Mother tong</p>
-                              <p class="nombreEcoute">17 Millions d'écoutes</p>
-                        </div>
-                        
-                  </div>
+                <h1>ECOUTEZ VOS AUDIOS LEGALEMENT</h1>
+                
+                <a href="">
+                        <div class="audio">
+                                <img class="imageAudio" src="../assets/5-casque.jpg" alt="">
+                                <div class="infoAudio">
+                                      <p class="artist">JUSTIN LIEBER</p>
+                                      <p class="titre">Mother tong</p>
+                                      <p class="nombreEcoute">17 Millions d'écoutes</p>
+                                </div>
+                          </div>
+                </a>
+
+                                
+                <a href="">
+                        <div class="audio">
+                                <img class="imageAudio" src="../assets/audio3.webp" alt="">
+                                <div class="infoAudio">
+                                      <p class="artist">MAITRE GIMS</p>
+                                      <p class="titre">Mother tong</p>
+                                      <p class="nombreEcoute">17 Millions d'écoutes</p>
+                                </div>
+                          </div>
+                </a>
+
+                <a href="">
+                        <div class="audio">
+                                <img class="imageAudio" src="../assets/audio8.webp" alt="">
+                                <div class="infoAudio">
+                                      <p class="artist">GRAND CORPS MALADE</p>
+                                      <p class="titre">Mother tong</p>
+                                      <p class="nombreEcoute">17 Millions d'écoutes</p>
+                                </div>
+                          </div>
+                </a>
+
+                <a href="">
+                        <div class="audio">
+                                <img class="imageAudio" src="../assets/indexImg2.jpeg" alt="">
+                                <div class="infoAudio">
+                                      <p class="artist">FIFTY CENT</p>
+                                      <p class="titre">Mother tong</p>
+                                      <p class="nombreEcoute">17 Millions d'écoutes</p>
+                                </div>
+                          </div>
+                </a>
             </div>
       </div>
 
       <div class="footer">
-            <div class="divGauche">
-                  <div class="traitVerticale"></div>
-                  <duv class="copyright">
-                        <p class="p1">Copyright 2023 Snap Streaming. All right reserved!</p>
-                        <p>Made by NaN Students</p>
-                  </duv>
-            </div>
-            <div class="divDroit">
-                  <p>Get App On</p>
-                  <div class="logoPlays">
-                        <img src="../assets/googlePlay" alt="">
-                        <img src="../assets/applePlay" alt="">
-                  </div>
-            </div>
-      </div>
+        <div class="infoGauche">
+                <div class="barVerticale"></div>
+                <div class="infoCopyright">
+                    <p class="copyright">Copyrigth © 2023 NaN Digital Academy </p>
+                    <p class="madeBy">Made by NaN Students</p>
+                </div>
+        </div>
+
+        <div class="infoDroite">
+                <p class="getApp">Get App On : </p>
+                <div class="reseauxSociaux">
+                    <img class="googlePlay" src="../assets/googleStore.png" alt="Google Play">
+                    <img class="appleStore" src="../assets/appleStore.png" alt="Apple Store">
+                </div>
+        </div>
+</div>
+
+
 </body>
 </html>

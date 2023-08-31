@@ -1,106 +1,153 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: #1C1C1C;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+        margin: 0;
+        padding: 0;
 }
 
-/* DEBUT STILISATION divNav */
-.divNav .logoSnap .imgLogoSnap{
-    height: 30px;
-	width: 50px;
-}
-.divNav .logoSnap p{
-    margin-left: 5px;
-	font-size: 30px;
-	font-weight: bold;
-}
-.divNav .logoSnap{
-	margin-top: 10px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding-left: 10px;
+.colonneCategorie div p{
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding-top: 35px;
+        border: 2px solid #FF9B04;
+        border-radius: 10px;
+        background-color: #494949;
+        height: 80px;
+        width: 90vw;
 }
 
-
-
-.divNav .rechercheGratuite input{
-	margin-top: 20px;
-	height: 40px;
-	width: 90vw;
-	margin-left: 10px;
+.colonneCategorie a{
+        text-decoration: none;
+        margin-bottom: 30px;
 }
-.divNav .rechercheGratuite a{
-	margin-top: 10px;
-	font-size: 20px;
-	color: #FF9B04;
-	text-decoration: none;
-}
-.divNav .rechercheGratuite{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   position: absolute;
-   top: 60px;
+
+.colonneCategorie{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 
-
-.divNav .avatar img{
-    height: 50px;
-	width: 50px;
-	border-radius: 30px;
-}
-.divNav .avatar p{
-	margin-left: 5px;
-}
-.divNav .avatar{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 40px;
-  margin-top: 10px;
+.colonneVideo .video img{
+        height: 35vh;
+        width: 90vw;
+        display: flex;
+        margin: 0 auto;
 }
 
+.colonneVideo .video p.titreVideo{
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 35px;
+}
+.colonneVideo .video p.categorieVideo{
+        font-size: 30px;
+        font-weight: bold;
+        color:  #FF9B04;
+        text-align: left;
+        margin-left: 30px;
+}
 
-.checkBoxMenu{
-	margin-top: 10px;
-	margin-right: 20px;
-	align-items: center;
-	justify-content: center;
+.vueDateVideo p{
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+
+}
+
+.vueDateVideo{
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 30px;
+
+}
+
+.colonneVideo .video{
+        background-color: #494949;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 30px auto;
+        text-align: start;
+        width: 90vw;
+}
+
+.colonneVideo h1{
+        margin-left: 30px;
+}
+.colonneVideo a{
+        text-decoration: none;
+}
+
+.colonneVideo{
+        margin-top: 100px;
 }
 
 
 
-div.divNav{
-	display: none;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	width: 100vw;
-	height: 160px;
-	margin-top: -40px;
-	background-color: #FF9B04;
-}
-nav{
-	background-color: aquamarine;
-}
-nav input[type=checkbox]:checked + ul>div.divNav{
-	background-color: red;
-	display: flex;
+/* DEBUT DU STYLE DE MUSIC */
+.colonneMusic h1{
+        margin-left: 30px;
 }
 
-#menuBouton{
-	width: 30px;
-	height: 30px;
-	background-color: black;
-	margin: 5px;
-	display: block;
+.audio img{
+        height: 35vh;
+        width: 90vw;
+}
+
+.audio .infoAudio p.artist{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+}
+
+.audio .infoAudio p.titre{
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+}
+
+.audio .infoAudio p.nombreEcoute{
+        font-size: 15px;
+        color: white;
+        margin-top: 10px;
+}
+.audio .infoAudio{
+       display: flex;
+       flex-direction: column;
+       align-items: start;
+       margin-left: 30px;
+}
+
+a div.audio{
+        display: block;
+        margin: 0 auto;
+        background-color: #494949;
+        width: 90vw;
+        padding-bottom: 40px;
+        margin-top: 20px;
+}
+
+.colonneMusic a{
+       text-decoration: none;
+}
+.colonneMusic{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        padding-bottom: 100px;
 }
 
 
-/*FIN STYLISATION divNav
+

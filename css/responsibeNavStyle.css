@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1C1C1C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.mobileFixed .snapLogoMobile img{
+        height: 40px;
+        width: 60px;
+        display: flex;
+        margin-left: 50px;
+        margin-top: 5px;
+        align-items: center;
+}
+
+.mobileFixed .snapLogoMobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+.mobileFixed .avatarMobile img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+}
+.mobileFixed .avatarMobile p{
+        margin-right: 10px;
+        font-size: 20px;
+}
+.mobileFixed .avatarMobile{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.mobileFixed{
+        background-color: #494949;
+        position:fixed;
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+
+
+.optionMobile .menuPage a{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        margin-top: 15px;
+}
+.optionMobile .menuPage{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+}
+
+.optionMobile .menuUser a{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        margin-top: 15px;
+}
+.optionMobile .menuUser .boutonDeconnexion{
+        margin-top: 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        height: 40px;
+        width: 200px;
+        background-color: #FF9B04;
+        text-align: center;
+        text-justify: center;
+        padding-top: 5px;
+        border-radius: 30px;
+}
+
+.optionMobile .menuUser{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+}
+
+.optionMobile{
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+
+
+
+/* DEBUT STYLISATION divNav */
+.divNav .logoSnap .imgLogoSnap{
+        display: none;
+    height: 30px;
+	width: 50px;
+}
+
+.divNav .logoSnap p{
+        display: none;
+    margin-left: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.divNav .logoSnap{
+        display: none;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 10px;
+}
+
+
+
+.divNav .rechercheGratuite input{
+        display: none;
+	margin-top: 20px;
+	height: 40px;
+	width: 90vw;
+	margin-left: 10px;
+}
+.divNav .rechercheGratuite a{
+        display: none;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #FF9B04;
+	text-decoration: none;
+}
+.divNav .rechercheGratuite{
+   display: none;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   top: 60px;
+}
+
+.divNav .avatar img{
+    height: 50px;
+	width: 50px;
+	border-radius: 30px;
+}
+.divNav .avatar p{
+	margin-left: 5px;
+}
+.divNav .avatar{
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+
+.checkBoxMenu{
+	margin-top: 10px;
+	margin-right: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+div.divNav{
+	display: none;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100vw;
+	height: 250px;
+	margin-top: -40px;
+	background-color: #FF9B04;
+}
+nav{
+	background-color:#494949;
+        position: fixed;
+}
+
+
+#ch{
+        display: none;
+}
+
+nav input[type=checkbox]:checked + ul>div.divNav{
+        background-color: #494949;
+        margin-top: 40px;
+	display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 50px;
+}
+
+#menuBouton{
+	width: 35px;
+	height: 35px;
+	background: linear-gradient(#FFF 0%, #FFF 20%, transparent 21%, Transparent 40%, #FFF 41%, #FFF 60%, transparent 61%, transparent 80%, #FFF 81%, #FFF 100%);
+	margin: 5px;
+	display: block;
+        position: relative;
+        top: 30px;
+}
+
+
+/*FIN STYLISATION divNav

@@ -182,7 +182,7 @@ div.divNav{
 	width: 100vw;
 	height: 250px;
 	margin-top: -40px;
-	background-color: #FF9B04;
+	background-color:#494949;
       
 }
 nav{
@@ -218,31 +218,134 @@ nav input[type=checkbox]:checked + ul>div.divNav{
         .mobileFixed{
                 margin-top: -100px;
         }
-        
 }
 
 @media (min-width: 1200px) { 
         #menuBouton{
                 display: none;
         }
-        .mobileFixed{
-                margin-top: 0px;
-        }
-        .mobileFixed .snapLogoMobile img{
-                height: 50px;
-                width: 100px;
+
+/* DEBUT STYLISATION divNav */
+        .divNav .logoSnap .imgLogoSnap{
                 display: flex;
-                margin-left: 20px;
-                margin-top: 5px;
+                height: 40px;
+                width: 100px;
         }
+
+        .divNav .logoSnap p{
+                display: flex;
+                margin-left: 5px;
+                font-size: 30px;
+                font-weight: bold;
+                }
+        .divNav .logoSnap{
+                display: flex;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-left: 10px;
+        }
+
+
 
         .divNav .rechercheGratuite input{
                 display: flex;
-                margin-top: 20px;
                 height: 40px;
-                width: 90vw;
-                margin-left: 10px;
+                width: 400px;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid #FF9B04;
+                border-radius: 30px;
+                text-align: center;
+                background-color:#1C1C1C;
+                color: #FFF;
+                font-size: 20px;
+                font-weight: bold;
+                font-style: italic;
+
         }
+        .divNav .rechercheGratuite a{
+                margin-left: 20px;
+                display: flex;
+                margin-top: 10px;
+                font-size: 15px;
+                color: #FF9B04;
+                text-decoration: none;
+        }
+        .divNav .rechercheGratuite{
+        display: flex;
+        margin-left: 25vw;
+        margin-top: -45px ;
+        flex-direction: row;
+        align-items: center;
+        /* position: absolute;
+        top: 10px; */
+        width: 80vw;
+        }
+
+        .divNav .avatar img{
+        height: 50px;
+                width: 50px;
+                border-radius: 30px;
+        }
+        .divNav .avatar p{
+                margin-left: 5px;
+                font-size: 15px;
+        }
+        .divNav .avatar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 30px;
+        }
+
+
+        /* .checkBoxMenu{
+                margin-top: 10px;
+                margin-right: 20px;
+                align-items: center;
+                justify-content: center;
+        } */
+
+
+        div.divNav{
+                display: flex;
+                flex-direction: row;
+                /* align-items: center; */
+                /* justify-content: space-between; */
+                width: 100vw;
+                height: 150px;
+                margin-top: -40px; 
+                background-color: #494949; 
+
+        }
+
+        div.divNavGrandEcran{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 90vw;
+        }
+
+
+        .optionMobile{
+                display: none;
+ 
+        }
+
+        /* nav input[type=checkbox]:checked + ul>div.divNav{
+                background-color: #494949;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                top: 50px;
+        } */
+
+
 }
 
 

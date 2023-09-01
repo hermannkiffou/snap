@@ -290,9 +290,27 @@ a div.audio{
                 display: flex;
                 color: white;
                 font-weight: lighter;
-                font-size: 20px;
+                font-size: 15px;
                 margin-bottom: 5px;
         }
+
+        .divLeftNav hr{
+              margin-top: 15px;
+        }
+
+        .divLeftNav .menuDeconnexion{
+                margin-top: 10px;
+                height: 30px;
+                background-color: #FF9B04;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                padding-left: 20px;
+                padding-bottom: 15px;
+                border-radius: 10px;
+                margin-right: 10px;
+          }
+
         .divLeftNav{
                 position: fixed;
                 margin-top: 100px;

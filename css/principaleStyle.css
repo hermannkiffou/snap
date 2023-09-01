@@ -146,11 +146,13 @@ a div.audio{
 
 .divLeftNav{
         display: none;
+        margin-top: -100px;
 }
 
 @media (min-width: 500px) and (max-width : 1199px) {
         .divLeftNav{
                 display: none;
+                position: relative;
         }
         .colonneCategorie div p{
                 font-size: 15px;
@@ -299,26 +301,28 @@ a div.audio{
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
+                padding-left: 15px;
         }
         .divBody{
                 width: 90vw;
                 display: flex;
                 flex-direction: column;
                 justify-content: right;
-
+                padding-left: 10vw;
         }
 
         .colonneCategorie div p{
                 font-size: 15px;
                 text-align: center;
                 justify-content: center;
-                padding-top: 30px;
+                padding-top: 20px;
                 border: 2px solid #FF9B04;
                 border-radius: 10px;
                 background-color: #494949;
-                height: 50px;
-                width: 20vw;
+                height: 40px;
+                width: 15vw;
                 font-weight: bold;
+                margin-top: 40px;
         }
         .colonneCategorie{
                 display: flex;
@@ -326,13 +330,15 @@ a div.audio{
                 justify-content: space-evenly;
                 align-items: center;
         }
-
+        h1{
+                margin-left: 100px;
+                margin-top: 20px;
+                margin-bottom: -30px;
+        }
         .colonneVideo .video{
                 margin: 20px 10px;
                 text-align: start;
-                width: 30vw;
-                height: 30;
-                
+                width: 25vw;
         }
 
         .colonneVideo{
@@ -343,7 +349,7 @@ a div.audio{
         }
         .colonneVideo .video img{
                 height: 40vh;
-                width: 30vw;
+                width: 25vw;
                 display: flex;
                 margin: 0 auto;
         }
@@ -375,7 +381,7 @@ a div.audio{
         }
 
         .vueDateVideo{
-                width: 30vw;
+                width: 25vw;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -385,7 +391,7 @@ a div.audio{
 
 .audio img{
         height: 40vh;
-        width: 23vw;
+        width: 20vw;
 }
 
 .audio .infoAudio p.artist{
@@ -414,7 +420,7 @@ a div.audio{
         display: block;
         margin: 0 auto;
         background-color: #494949;
-        width: 23vw;
+        width: 20vw;
         padding-bottom: 20px;
         margin-top: 20px;
 }

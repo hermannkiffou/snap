@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Snap Payement</title>
+        <link rel="stylesheet" href="../css/payementStyle.css">
+</head>
+<body>
+        <div class="principale">
+
+                <div class="blocA">
+                        <img src="../assets/cardImg.png" alt="">
+                        <p class="abonnement">ABONNEMENT MENSUEL</p>
+                        <p class="prix">3000 FCFA</p>
+                </div>
+
+                <div class="form">
+                    <div class="input">
+                        <label for="fullName">NOM COMPLET DU PROPRIETAIRE DE LA CARTE</label>
+                        <input type="text" id="fullName">
+                    </div>
+                    <div class="input">
+                        <label for="numCard">NUMERO DE LA CARTE</label>
+                        <input type="text" id="numCard">
+                    </div>
+
+                    <div class="expSecurite">
+                        <div class="input">
+                            <label for="expDate">DATE D'EXPIRATION</label>
+                            <input type="text" id="expDate" placeholder="MM / YY">
+                        </div>
+                        <div class="input">
+                            <label for="codeSecurite">CODE DE SECURITE</label>
+                            <input type="text" id="codeSecurite" class="codeSecurite">
+                        </div>
+                    </div>
+
+                    <div class="input">
+                        <label for="codePostal">    CODE POSTAL</label>
+                        <input type="text" id="codePostal">
+                    </div>
+
+                        <div class="actions">
+                            <button class="btnPayer"><a href="">PAYER</a></button>
+                            <button class="btnFermer"><a href="">FERMER</a></button>
+                        </div>
+                </div>
+        </div>
+</body>
+</html>

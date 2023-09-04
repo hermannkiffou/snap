@@ -47,7 +47,7 @@ align-items: center;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-top: -150px;
+        margin-top: -140px;
 }
 
 
@@ -210,12 +210,12 @@ nav input[type=checkbox]:checked + ul>div.divNav{
 	margin: 5px;
 	display: flex;
         position: absolute;
-        top: -150px;
+        top: -110px;
 }
 
 @media (min-width: 500px) and (max-width : 1199px) {
         .mobileFixed{
-                margin-top: -150px;
+                margin-top: -140px;
         }
 }
 

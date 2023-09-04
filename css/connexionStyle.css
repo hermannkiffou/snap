@@ -46,6 +46,7 @@
         justify-content: right;
         align-items:flex-end;
         margin-top: -8px;
+        margin-right: 50px;
 }
 
 .divFormulaire button.boutonConnexion{
@@ -63,7 +64,7 @@
 
 .divFormulaire .barreOr{
         height: 4px;
-        width: 30vw;
+        width: 200px;
         background-color: white;
         margin: 15px auto;
 }

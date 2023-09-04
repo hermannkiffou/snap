@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #1C1C1C;
+}
+
+.divAvatar  p{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: -50px;
+}
+
+.divAvatar  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.divAvatar  button{
+    margin: 10px;
+    background-color: #FF9B04;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+.divAvatar  button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.divAvatar{
+    background-color:#494949;
+    border-top: 40px solid #FF9B04; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.divDetail p{
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.divDetail a.modifMdp{
+    text-decoration: none;
+    color: #FF9B04;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    right: -130px;
+    padding-bottom: 20px;
+}
+
+.divDetail div.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+    margin-top: 20px;
+}
+
+.divDetail div input{
+    width: 90vw;
+    height: 50px;
+    border: 2px solid #FF9B04;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #FF9B04;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.divDetail div label{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.divDetail .divGroupInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.divGroupInput div input{
+    width: 75%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.divGroupInput div label{
+    width: 75%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.divDetail{
+    background-color: #494949;
+    margin-top: 30px;
+    border-top: 40px solid #FF9B04;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 100vw;
+}
+
+.laPrincipale{
+    display:flex;
+    flex-direction: column;
+}
+
+div.detailActions button.btnModifier{
+    margin: 5px;
+    width: 55vw;
+    height: 50px;
+    border: none;
+    background-color: #FF9B04;
+    color: white;
+    border-radius: 10px;
+}
+
+div.detailActions button.btnFermer{
+    margin: 5px;
+    width: 25vw;
+    height: 50px;
+    border: none;
+    background-color: #1C1C1C;
+    color: white;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.detailActions{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 500px) and (max-width: 1199px){
+
+    .divDetail a.modifMdp{
+        text-align: right;
+        position: relative;
+        right: -150px;
+    
+    }
+
+.divAvatar{
+    width: 500px;
+}
+    .divDetail{
+        width: 500px;
+    }
+    .laPrincipale{
+        display: flex;
+        align-items: center;
+        width: 500px;
+    }
+
+    .divDetail div input{
+        width: 400px;
+    }
+    .divGroupInput div input{
+        width: 70%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    div.divGroupInput{
+
+    }
+
+    div.detailActions button.btnModifier{
+        width: 250px;
+    }
+    
+    div.detailActions button.btnFermer{
+        width: 100px;
+    }
+    
+.detailActions{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+    .divDetail a.modifMdp{
+        font-weight: bold;
+        text-align: right;
+        position: relative;
+        right: -200px;
+    }
+
+    .divAvatar{
+        margin-top: 30px;
+        width: 400px;
+    }
+        .divDetail{
+            margin-left: 20px;
+            width: 600px;
+        }
+        .laPrincipale{
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: center;
+        }
+    
+    
+        .divDetail div input{
+            width: 500px;
+        }
+        .divGroupInput div input{
+            width: 80%;
+        }
+    
+        div.detailActions button.btnModifier{
+            width: 250px;
+        }
+        
+        div.detailActions button.btnFermer{
+            width: 100px;
+        }
+        
+    .detailActions{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    }
+
+
+

@@ -10,13 +10,12 @@ body{
 
 .principale{
     background-color: white;
-    height: 90vh;
+    height: 95vh;
     width: 90vw;
     align-items: center;
     justify-content: center;
     margin: 10vh auto;
 }
-
 
 .blocA img{
     height: 15vh;
@@ -67,9 +66,15 @@ div input{
 div.expSecurite{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     width: 80%;
 }
+
+div.expSecurite input{
+    width: 90%;
+}
+
 div.codeSecurite{
     padding: 10px;
 }
@@ -100,7 +105,22 @@ div.actions{
     margin-top: 15px;
 }
 
+@media (min-width: 500px) {
 
+    .principale{
+        background-color: white;
+        height: 600px;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        margin: 10vh auto;
+    }
+
+    .blocA img{
+        height:100px;
+        width: 200px;
+    }
+}
 
 
 

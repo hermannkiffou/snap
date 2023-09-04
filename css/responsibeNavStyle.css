@@ -51,7 +51,6 @@ align-items: center;
 }
 
 
-
 .optionMobile .menuPage a{
         text-decoration: none;
         font-size: 25px;
@@ -333,8 +332,13 @@ nav input[type=checkbox]:checked + ul>div.divNav{
 
         .optionMobile{
                 display: none;
- 
         }
+
+        /* .menuHover{
+            display: none;
+        } */
+
+
 
         /* nav input[type=checkbox]:checked + ul>div.divNav{
                 background-color: #494949;
